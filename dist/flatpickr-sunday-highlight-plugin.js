@@ -19,7 +19,8 @@ function SundayHighlightPlugin(e = {}) {
 			onYearChange: n,
 			onOpen() {
 				r(), n();
-			}
+			},
+			onChange: n
 		};
 	};
 }
