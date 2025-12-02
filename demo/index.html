@@ -3,11 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <title>Demo</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
-    <h3>Demo</h3>
+  <body class="bg-gray-100 h-screen flex flex-col gap-3 pt-50 items-center">
+    <div>
+      <h3>Demo</h3>
+    </div>
 
-    <input id="calendar" />
+    <div>
+      <input
+        class="border border-gray-300 p-4 rounded-xl outline-0 hover:ring-0"
+        id="calendar"
+      />
+    </div>
 
     <script type="module">
       import flatpickr from "flatpickr";
@@ -15,8 +23,12 @@
       import "../src/index.css";
 
       flatpickr("#calendar", {
-        minDate: "today",
-        maxDate: "2025-12-31",
+        enableTime: true,
+        dateFormat: "Y-m-d H:i",
+        time_24hr: true,
+        locale: {
+          firstDayOfWeek: 1,
+        },
         plugins: [SundayHighlightPlugin()],
       });
     </script>

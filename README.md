@@ -2,6 +2,8 @@
 
 A flatpickr plugin with an elegant theme and Sunday highlight feature.
 
+![alt text](preview.png)
+
 - **Elegant Theme**: Modern and clean visual design for flatpickr
 - **Sunday Highlight**: Automatically highlights Sundays
 
