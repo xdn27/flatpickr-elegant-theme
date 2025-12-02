@@ -1,0 +1,37 @@
+{
+  "name": "flatpickr-elegant-theme",
+  "private": false,
+  "version": "1.0.0",
+  "description": "Flatpickr elegant theme with sunday highlight plugin.",
+  "main": "dist/flatpickr-sunday-highlight-plugin.cjs.js",
+  "module": "dist/flatpickr-sunday-highlight-plugin.js",
+  "unpkg": "dist/flatpickr-sunday-highlight-plugin.umd.js",
+  "type": "module",
+  "author": {
+    "name": "Denisa Rachman",
+    "url": "https://github.com/xdn27"
+  },
+  "license": "MIT",
+  "keywords": [
+    "flatpickr",
+    "plugin",
+    "calendar",
+    "sunday",
+    "elegant",
+    "theme"
+  ],
+  "scripts": {
+    "dev": "vite demo",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "npm:rolldown-vite@7.2.5"
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@7.2.5"
+  },
+  "peerDependencies": {
+    "flatpickr": "^4.6.13"
+  }
+}
