@@ -9,7 +9,7 @@ function SundayHighlightPlugin(e = {}) {
 		}
 		function r() {
 			let n = t.calendarContainer?.querySelectorAll(".flatpickr-weekday");
-			!n || n.length !== 7 || (t.config.locale.firstDayOfWeek === 0 ? n[6] : n[0]).classList.add(e.weekdayClass || "fp-weekday-sunday");
+			!n || n.length !== 7 || (t.config.locale.firstDayOfWeek === 1 ? n[6] : n[0]).classList.add(e.weekdayClass || "fp-weekday-sunday");
 		}
 		return {
 			onReady() {
