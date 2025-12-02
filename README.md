@@ -21,7 +21,7 @@ npm install flatpickr-elegant-theme
 <!-- CSS -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/flatpickr-elegant-theme/dist/flatpickr-sunday-highlight-plugin.css"
+  href="https://unpkg.com/flatpickr-elegant-theme/dist/flatpickr-elegant-theme.css"
 />
 
 <!-- JavaScript -->
@@ -35,7 +35,7 @@ npm install flatpickr-elegant-theme
 ```javascript
 import flatpickr from "flatpickr";
 import SundayHighlightPlugin from "flatpickr-elegant-theme";
-import "flatpickr-elegant-theme/dist/flatpickr-sunday-highlight-plugin.css";
+import "flatpickr-elegant-theme/dist/flatpickr-elegant-theme.css";
 
 flatpickr("#calendar", {
   plugins: [SundayHighlightPlugin()],
