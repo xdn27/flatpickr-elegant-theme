@@ -15,6 +15,8 @@
       import "../src/index.css";
 
       flatpickr("#calendar", {
+        minDate: "today",
+        maxDate: "2025-12-31",
         plugins: [SundayHighlightPlugin()],
       });
     </script>

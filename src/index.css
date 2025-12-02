@@ -677,6 +677,12 @@ span.flatpickr-weekday.fp-weekday-sunday {
   background: #0a70d8 !important; /* before:bg-primary */
 }
 
+/* Disabled day */
+.flatpickr-day.flatpickr-disabled:before {
+  background: transparent; /* bg-transparent! */
+  /* color: #fff; text-white! */
+}
+
 /* Range selection styles */
 .flatpickr-day.inRange,
 .flatpickr-day.prevMonthDay.inRange,
