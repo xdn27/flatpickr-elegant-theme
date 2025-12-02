@@ -1,7 +1,7 @@
 {
   "name": "flatpickr-elegant-theme",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Flatpickr elegant theme with sunday highlight plugin.",
   "main": "dist/flatpickr-sunday-highlight-plugin.cjs.js",
   "module": "dist/flatpickr-sunday-highlight-plugin.js",
