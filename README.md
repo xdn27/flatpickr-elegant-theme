@@ -21,11 +21,11 @@ npm install flatpickr-elegant-theme
 <!-- CSS -->
 <link
   rel="stylesheet"
-  href="https://unpkg.com/flatpickr-elegant-theme/dist/flatpickr-elegant-theme.css"
+  href="https://cdn.jsdelivr.net/npm/flatpickr-elegant-theme/dist/flatpickr-elegant-theme.css"
 />
 
 <!-- JavaScript -->
-<script src="https://unpkg.com/flatpickr-elegant-theme/dist/flatpickr-sunday-highlight-plugin.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr-elegant-theme/dist/flatpickr-sunday-highlight-plugin.umd.js"></script>
 ```
 
 ## 🚀 Usage
