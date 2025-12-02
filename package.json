@@ -20,6 +20,10 @@
     "elegant",
     "theme"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xdn27/flatpickr-elegant-theme.git"
+  },
   "scripts": {
     "dev": "vite demo",
     "build": "vite build",
